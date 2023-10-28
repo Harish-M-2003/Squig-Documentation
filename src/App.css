@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* table, tr , th ,td{
+    border: 1px solid black;
+    padding : 0.5rem;
+    text-align: center;
+    margin-top: 2rem;
+} */
+
+html , body{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
