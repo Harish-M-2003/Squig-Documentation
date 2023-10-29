@@ -163,13 +163,17 @@ export default function Playground(){
             placeholder="Write your code here"
           /> */}
             <Editor
-                className="text-lg w-full outline-none bg-gray-900 resize-none text-white h-[10em]"
+                
+                className="text-lg w-full outline-0 bg-gray-900 resize-none text-white"
                 value={code}
                 onValueChange={code => setCode(code)}
                 highlight={code => highlight(code, languages.js)}
                 padding={8}
+                onClick={() => {window.document.querySelector("textarea").style.outline = 0}}
                 style={{
                   fontFamily: '"Fira code", "Fira Mono", monospace',
+                  borderWidth : 0,
+                  // outline : 0,
                   // fontSize: 12,
                 }}
               />
