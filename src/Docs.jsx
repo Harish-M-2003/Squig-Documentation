@@ -10,10 +10,10 @@ export default function Docs(){
         <div className='px-6 md:text-xl'>
             <div data-aos = "fade-up" data-aos-duration = "700">
               <p className='text-white'><span className='text-blue-500'>1 ) </span>Print statement :</p>
-              <p className='mx-5 my-4 text-lg'><span className='text-white'>* </span>The 'show' keyword is used to display the message on the screen.</p>
+              <p className='mx-5 my-4 text-lg'><span className='text-white'>* </span>The 'log' keyword is used to display the message on the screen.</p>
               <div data-aos = "fade-left" data-aos-duration = "2000" className='bg-gray-900 my-5 p-5 rounded-lg'>
                 <p>
-                  <span className='text-blue-400'>show</span><span className='text-green-500 mx-3'>"Hello techies"</span>
+                  <span className='text-blue-400'>log</span><span className='text-green-500 mx-3'>"Hello techies"</span>
                 </p>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function Docs(){
             </div>
 
             <div data-aos = "fade-right" data-aos-duration = "700">
-            <p className='text-white'><span className='text-blue-500'>4 ) </span>Strings (Immutable types) :</p>
+            <p className='text-white'><span className='text-blue-500'>4 ) </span>Strings (Immutable type) :</p>
             <p className='mx-5 my-4 text-lg'><span className='text-white'>* </span>Strings are sequence of characters enclosed within double quotes . This is how we will declear a string.</p>
             <p className='mx-5 text-red-400'>Note : Make sure to use the appropriate quotation marks; do not use single quotes for the string.</p>
             <div data-aos = "fade-left" data-aos-duration = "2000" className='bg-gray-900 my-5 p-5 rounded-lg'>
@@ -219,10 +219,10 @@ export default function Docs(){
               <p className='mx-5 text-red-400'>Note : functions in squig cannot have default parameters.</p>
               <div data-aos = "fade-left" data-aos-duration = "900" className='bg-gray-900 my-5 p-5 rounded-lg '>
                 <p>
-                  function_name<span className='text-blue-300 m-2'>function</span>{" { } :"}<br/><span className='text-blue-300 mx-5'>show</span><span className='text-green-500 mx-3'>"Functions in squig."</span>
+                  function_name<span className='text-blue-300 m-2'>function</span>{" { } :"}<br/><span className='text-blue-300 mx-5'>log</span><span className='text-green-500 mx-3'>"Functions in squig."</span>
                 </p><br/>
                 <p className='text-gray-300'>
-                  add2num<span className='text-blue-300 m-2'>function</span>{" { num1 , num2} :"}<br/><span className='text-blue-300 mx-5'>show</span> num1 + num2
+                  add2num<span className='text-blue-300 m-2'>function</span>{" { num1 , num2} :"}<br/><span className='text-blue-300 mx-5'>log</span> num1 + num2
                 </p><br/>
                 <p className='text-gray-300'>
                   add2num{" { 6 , 6 } "}<span className='text-gray-500 mx-2'>{`//this is function call.`}</span><br/>
@@ -254,12 +254,12 @@ export default function Docs(){
               <p className='md:hidden block text-red-500 my-3'>We'll update the documentation for mobile screens soon.for better experience view on a bigger screen.</p>
             </div>
             <div data-aos = "fade-up" data-aos-duration = "700">
-              <p className='text-white'><span className='text-blue-500'>13 ) </span>Types keyword :</p>
-              <p className='mx-5 my-4 text-lg'><span className='text-white'>* </span><span className='text-white'>'types'</span> keyword is used to know the type of the operand or variable or value.</p>
+              <p className='text-white'><span className='text-blue-500'>13 ) </span>Type keyword :</p>
+              <p className='mx-5 my-4 text-lg'><span className='text-white'>* </span><span className='text-white'>'type'</span> keyword is used to know the type of the operand or variable or value.</p>
               <div data-aos = "fade-left" data-aos-duration = "900" className='bg-gray-900 my-5 p-5 rounded-lg'>
                 <p className='text-gray-300'>
-                  <span className='text-blue-300'>types</span><span className='text-green-500 mx-3'>"Squig"</span><span className='text-gray-500 m-2'>{`//output : String`}</span><br/><br/>
-                  <span className='text-blue-300'>types</span><span className='mx-3'>1000</span><span className='text-gray-500 m-2'>{`//output : Number`}</span>
+                  <span className='text-blue-300'>type</span><span className='text-green-500 mx-3'>"Squig"</span><span className='text-gray-500 m-2'>{`//output : String`}</span><br/><br/>
+                  <span className='text-blue-300'>type</span><span className='mx-3'>1000</span><span className='text-gray-500 m-2'>{`//output : Number`}</span>
                 </p>
               </div>
             </div>
